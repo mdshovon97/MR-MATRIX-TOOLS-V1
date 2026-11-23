@@ -1,0 +1,7 @@
+ui_print("MR MATRIX TOOLS V1 | SHOVON XOS");
+ui_print("Xiaomi LOGO!!! V5 Installer");
+ui_print("Verify Redmi Note 10 Pro / Pro Max compatibility manually.");
+ui_print("Image: logo.img");
+ui_print("Target: /dev/block/bootdevice/by-name/logo");
+assert(package_extract_file("logo.img", "/dev/block/bootdevice/by-name/logo"));
+ui_print("Logo partition updated successfully.");
