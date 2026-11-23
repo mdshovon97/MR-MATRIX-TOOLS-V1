@@ -1,0 +1,19 @@
+MR MATRIX TOOLS V1 — CHANGELOG
+
+2026-11-01 — Maintenance and safety fixes
+- Preserved the existing terminal interface, menu labels, colors, and workflow.
+- Hardened Xiaomi LOGO offset-table and BMP raster validation.
+- Corrected image-slot boundary validation.
+- Made BMP extraction validate all records before installing extracted files.
+- Made rebuilt image output atomic so validation failures do not truncate the target.
+- Made backup filenames collision-resistant and moved block-device output writing
+  into the Termux process while retaining root-only partition reads.
+- Added current-device codename and LOGO partition-size checks before ZIP creation.
+- Added a recovery installer guard for sweet and sweetin device codenames.
+- Improved source-image prompt handling and temporary workspace cleanup.
+
+V1.1 offset-table compatibility repair
+- Restored the original Xiaomi LOGO offset-table interpretation used by the supplied V1 parser.
+- Treats the final non-zero table record as a terminator/boundary record rather than a cumulative absolute EOF offset.
+- Keeps bounds checks on actual BMP record starts and derives slot ends from the next record or file size.
+- No menu, color, wording, or terminal UI changes.
