@@ -1,0 +1,47 @@
+MR MATRIX SHOVON XOS V1 TOOLS
+LICENSE INVENTORY
+==================
+
+Project: MR MATRIX TOOLS V1
+Copyright notice for original project contributions: Copyright (C) 2026 MR MATRIX SHOVON XOS
+
+1. ORIGINAL PROJECT SOURCE
+--------------------------
+Unless a file, directory, release, or component states otherwise, original source code authored by the project maintainer is intended to be licensed under the GNU General Public License, version 3, or (at the maintainer's option) any later version (GPL-3.0-or-later). The complete, unmodified GPL version 3 text is provided in GPL-3.0.txt.
+
+Official license: https://www.gnu.org/licenses/gpl-3.0.html
+
+This statement applies only to material for which the maintainer has the legal right to grant the license. It does not automatically relicense third-party code or binaries.
+
+2. logo.py ATTRIBUTION
+----------------------
+The source identifies the Xiaomi LOGO extractor/replacer implementation as based on the implementation by Hackintosh 5 (2019), and declares GPL-3.0-or-later. Preserve its upstream attribution and applicable notices when redistributing or modifying it. Verify the original upstream package and license notice when preparing a public release.
+
+3. RECOVERY update-binary — PROVENANCE NEEDS VERIFICATION
+--------------------------------------------------------
+The package includes a prebuilt ARM EABI5 executable at:
+`mr_matrix/META-INF/com/google/android/update-binary`
+
+The executable is not source code, and this archive alone does not establish its original author, source repository, version, or license. Do not claim that this binary is owned by MR MATRIX SHOVON XOS or that it is GPL-3.0-or-later solely because it is bundled here. Before public redistribution, identify its upstream source and license, preserve required notices, and provide corresponding source if required by the applicable license. If provenance cannot be verified, replace it with a properly sourced installer binary or omit the recovery ZIP feature from the public release until resolved.
+
+4. OTHER THIRD-PARTY MATERIAL
+-----------------------------
+Third-party programs, libraries, scripts, assets, trademarks, and other materials remain subject to their respective copyright notices and license terms. Check dependencies and bundled components individually. Preserve notices and comply with all applicable terms.
+
+5. MODIFICATIONS AND REDISTRIBUTION
+-----------------------------------
+For GPL-covered material, modification and redistribution must comply with the applicable GPL terms, including relevant copyright and license notices, identification of changes where required, and corresponding-source obligations when conveying object code. Do not misrepresent modified software as an unmodified official release.
+
+6. BRANDING
+-----------
+MR MATRIX, MR MATRIX SHOVON XOS, and MR MATRIX TOOLS V1 are project identifiers. This notice does not grant trademark rights or permission to imply endorsement or official affiliation. This statement does not remove rights granted by the GPL to copy, modify, or redistribute GPL-covered code.
+
+7. WARRANTY
+-----------
+GPL-covered material is subject to the warranty disclaimer and limitation-of-liability provisions in the GNU GPL, including sections 15 and 16. Any separate warranty or support commitment must be made by the party offering it and remain consistent with applicable law.
+
+8. CONTACT
+----------
+Use the contact method published on the project's official repository or release page. Add verified contact details before publishing; none are specified here.
+
+This inventory is informational and does not replace the license terms applicable to any particular component.
